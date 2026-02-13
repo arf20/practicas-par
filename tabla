@@ -1,0 +1,14 @@
+Characteristic                          Value
+----------------------------------------------------
+Number of sockets per node              2
+Number of cores per socket              16
+Number of threads per core              2
+Maximum core frequency                  3400 MHz
+L1-I cache size (per-core)              1 MiB
+L1-D cache size (per-core)              1.5 MiB
+L2 cache size (per-core)                40 MiB
+Last-level cache size (per-socket)      48 MiB
+Main memory size (per socket)           64 GiB
+Main memory size (per node)             128 GiB
+Cache line size (in bytes)              64
+
