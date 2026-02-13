@@ -1,0 +1,34 @@
+# Lab 1
+
+## Tabla de arquitectura
+
+Characteristic                        | Value
+----------------------------------------------------
+Number of sockets per node            | 2
+Number of cores per socket            | 16
+Number of threads per core            | 2
+Maximum core frequency                | 3400 MHz
+L1-I cache size (per-core)            | 1 MiB
+L1-D cache size (per-core)            | 1.5 MiB
+L2 cache size (per-core)              | 40 MiB
+Last-level cache size (per-socket)    | 48 MiB
+Main memory size (per socket)         | 64 GiB
+Main memory size (per node)           | 128 GiB
+Cache line size (in bytes)            | 64
+
+
+## Tabla de ejecuciones
+
+Number      | Interactive timing information  | Queued timing information
+of threads  | user | system | elapsed | %CPU  | user | system | elapsed | %CPU
+--------------------------------------------------------------------------------
+1           | 0.68 | 0.00   | 0:00.69 | 99    | 0.69 | 0.00   | 0:00.72 | 97
+2           | 1.40 | 0.00   | 0:00.71 | 197   | 0.69 | 0.00   | 0:00.37 | 188
+4           | 1.43 | 0.17   | 0:00.81 | 198   | 0.69 | 0.00   | 0:00.20 | 352
+8           | 1.45 | 0.03   | 0:00.74 | 198   | 0.69 | 0.01   | 0:00.11 | 626
+16          | 1.46 | 0.07   | 0:00.77 | 198   | 0.70 | 0.01   | 0:00.07 | 1008
+32          | 1.43 | 0.11   | 0:00.78 | 197   | 0.70 | 0.00   | 0:00.05 | 1373
+64          | 1.44 | 0.19   | 0:00.83 | 198   | 1.46 | 0.01   | 0:00.05 | 2913
+128         | 1.50 | 0.31   | 0:00.92 | 198   | 1.30 | 0.60   | 0:00.07 | 2683
+
+
