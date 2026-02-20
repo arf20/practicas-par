@@ -1,0 +1,119 @@
+1.2.1.
+
+1.
+
+2.
+
+Value of pi = 3.1416740338
+
+Wall clock execution time  = 0.012403965 seconds
+Value of pi = 3.1415926536
+
+They are different
+
+3. 
+
+Value of pi = 0.9636818046
+
+Wall clock execution time  = 2.683820009 seconds
+Value of pi = 3.1146838603
+
+Result is incorrect
+
+4. yes
+
+5. yes
+
+6. ok
+
+7. correcter
+
+8. they do
+
+9. aha
+
+10. 
+
+Thread 0: 4x
+Thread 1: 4x + 1
+Thread 2: 4x + 2
+Thread 3: 4x + 3
+
+11. very yes
+
+Wall clock execution time  = 0.009196043 seconds
+Value of pi = 0.7853982384
+
+12. writing to sum
+
+1.2.2.
+
+1. Better
+
+Value of pi = 3.1416740338
+
+Wall clock execution time  = 4.613508940 seconds
+Value of pi = 3.1415926536
+
+2. But 4.6s of sync overhead
+
+3. v5 much less overhead
+
+Wall clock execution time  = 0.718719959 seconds
+Value of pi = 3.1415926536
+
+4. v6 even less overhead
+
+Wall clock execution time  = 0.009753227 seconds
+Value of pi = 3.1415926536
+
+5. yes
+
+6. yes
+
+7. did in 4
+
+8.
+
+Alright
+
+9.
+
+Wall clock execution time  = 0.008706093 seconds
+Value of pi = 3.1415926536
+
+Similar, a bit less?
+
+10. ok
+
+11.
+
+Thread 0 finished with the computation, partial value for pi=0.7853982384
+Thread 1 finished with the computation, partial value for pi=0.7853981884
+Thread 2 finished with the computation, partial value for pi=0.7853981384
+Thread 3 finished with the computation, partial value for pi=0.7853980884
+Wall clock execution time  = 0.009121180 seconds
+Value of pi = 3.1415926536
+
+
+1.hello
+
+Q1: 2 because nproc=2 default
+Q2: to make it print 4 times, OMP_NUM_THREADS=4
+
+2.hello
+
+Q1: no, its not ordered and sometimes 3 prints withh same id occur
+Q2: no. because there is no syncronization assuring that order, prints occur randomly
+
+3.howmany
+
+Q1. 1 thread, 8 threads
+Q2: #pragma num_threads and function omp_set_num_threads(int)
+Q3: #pragma affets a single execution of a parallel block, while function affects all of them
+
+4.data_sharing
+
+Q1: idfk
+
+
