@@ -1,0 +1,6 @@
+speedup: 3.932
+1 MAIN_TAREADOR 1 0.0
+2 horizontal_border 2 0.79 len(0.34) dep(0.20) conc(0.26)
+3 vertical_border 3 0.88 len(0.38) dep(0.24) conc(0.26)
+4 fill_py 4 0.62 len(0.00) dep(0.37) conc(0.25)
+5 compute_py 5 0.71 len(0.28) dep(0.20) conc(0.23)

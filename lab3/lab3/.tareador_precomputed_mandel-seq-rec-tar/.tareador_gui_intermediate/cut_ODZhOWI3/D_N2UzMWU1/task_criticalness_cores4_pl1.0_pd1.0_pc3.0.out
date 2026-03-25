@@ -1,0 +1,8 @@
+speedup: 2.637
+1 MAIN_TAREADOR 1 0.0
+2 horizontal 2 0.24 len(0.09) dep(0.06) conc(0.09)
+3 vertical 3 0.24 len(0.11) dep(0.06) conc(0.08)
+4 case1 4 0.29 len(0.03) dep(0.22) conc(0.04)
+5 case2 5 0.45 len(0.20) dep(0.22) conc(0.03)
+6 case3 6 0.40 len(0.14) dep(0.22) conc(0.04)
+7 case4 7 1.39 len(0.44) dep(0.22) conc(0.72)

@@ -1,0 +1,11 @@
+EVENT_TYPE
+0     7003     running task
+VALUES
+0     task_end
+1     MAIN_TAREADOR
+2     horizontal
+3     vertical
+4     case1
+5     case2
+6     case3
+7     case4

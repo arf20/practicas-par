@@ -1,0 +1,11 @@
+icx -I. -I/Soft/stb/20200430 -o mandel-seq-rec -g -O3 -std=c99  mandel-seq-rec.c -lX11 -L/usr/X11R6/lib -lm
+
+Computation of the Mandelbrot set with:
+    center = (-1.81641, -0.203125) 
+    size = 2
+    maximum iterations = 10000
+
+Total execution time (in seconds): 1.963741
+
+Mandelbrot set: Computed
+Histogram for Mandelbrot set: Not computed

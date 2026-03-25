@@ -1,0 +1,300 @@
+digraph G {
+ranksep=2.5; nodesep=2.5 penwidth=7
+subgraph cluster0 {
+label="MAIN_TAREADOR\nID=0\ninst=922845"
+color="#0000FF"; style=filled; fillcolor="#0000FF40"
+	 task_0__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=triangle,color="#0000FF",label="MAIN_TAREADOR\nID=0__0\ninst=52\nnesting=0\nchildren_pot_tasks=6",style=filled]
+	 task_0__1 [fontsize=5, height=1,width=1, fixedsize=true,shape=triangle,color="#0000FF",label="MAIN_TAREADOR\nID=0__1\ninst=27\nnesting=0\nchildren_pot_tasks=6",style=filled]
+	 task_0__2 [fontsize=5, height=1,width=1, fixedsize=true,shape=triangle,color="#0000FF",label="MAIN_TAREADOR\nID=0__2\ninst=0\nnesting=0\nchildren_pot_tasks=6",style=filled]
+	 task_1 [fontsize=23.56943204746445, height=4.71388640949289,width=4.71388640949289, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=1\ninst=9353\nnesting=1\nchildren_pot_tasks=0",style=filled]
+	 task_2 [fontsize=32.20690277021511, height=6.441380554043022,width=6.441380554043022, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=2\ninst=52625\nnesting=1\nchildren_pot_tasks=0",style=filled]
+subgraph cluster3 {
+label="case1\nID=3\ninst=44674"
+color="#FFFF00"; style=filled; fillcolor="#FFFF0040"
+	 task_3__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=3__0\ninst=52\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_3__1 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=3__1\ninst=28\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_3__2 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=3__2\ninst=0\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_4 [fontsize=20.15316726477228, height=4.030633452954456,width=4.030633452954456, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=4\ninst=4723\nnesting=2\nchildren_pot_tasks=0",style=filled]
+	 task_5 [fontsize=20.496790486751376, height=4.099358097350275,width=4.099358097350275, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=5\ninst=5059\nnesting=2\nchildren_pot_tasks=0",style=filled]
+subgraph cluster6 {
+label="case1\nID=6\ninst=6873"
+color="#FFFF00"; style=filled; fillcolor="#FFFF0040"
+	 task_6__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=6__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_6__1 [fontsize=16.173903075784782, height=3.2347806151569563,width=3.2347806151569563, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=6__1\ninst=2131\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_7 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=7\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_8 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=8\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster9 {
+label="case2\nID=9\ninst=6876"
+color="#FF00FF"; style=filled; fillcolor="#FF00FF40"
+	 task_9__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=9__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_9__1 [fontsize=16.180937074600187, height=3.2361874149200376,width=3.2361874149200376, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=9__1\ninst=2134\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_10 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=10\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_11 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=11\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster12 {
+label="case3\nID=12\ninst=6876"
+color="#00FFFF"; style=filled; fillcolor="#00FFFF40"
+	 task_12__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=12__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_12__1 [fontsize=16.180937074600187, height=3.2361874149200376,width=3.2361874149200376, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=12__1\ninst=2134\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_13 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=13\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_14 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=14\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster15 {
+label="case4\nID=15\ninst=14187"
+color="#800000"; style=filled; fillcolor="#80000040"
+	 task_15__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=15__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_15__1 [fontsize=23.390938831297102, height=4.678187766259421,width=4.678187766259421, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=15__1\ninst=9025\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_16 [fontsize=16.741133046985844, height=3.348226609397169,width=3.348226609397169, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=16\ninst=2387\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_17 [fontsize=17.399617378660494, height=3.4799234757320985,width=3.4799234757320985, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=17\ninst=2723\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+}
+subgraph cluster18 {
+label="case2\nID=18\ninst=539629"
+color="#FF00FF"; style=filled; fillcolor="#FF00FF40"
+	 task_18__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=18__0\ninst=52\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_18__1 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=18__1\ninst=31\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_18__2 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=18__2\ninst=0\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_19 [fontsize=31.379167154729007, height=6.275833430945801,width=6.275833430945801, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=19\ninst=44596\nnesting=2\nchildren_pot_tasks=0",style=filled]
+	 task_20 [fontsize=30.219135296481866, height=6.043827059296373,width=6.043827059296373, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=20\ninst=35362\nnesting=2\nchildren_pot_tasks=0",style=filled]
+subgraph cluster21 {
+label="case1\nID=21\ninst=14685"
+color="#FFFF00"; style=filled; fillcolor="#FFFF0040"
+	 task_21__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=21__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_21__1 [fontsize=23.63739528988149, height=4.727479057976298,width=4.727479057976298, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=21__1\ninst=9481\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_22 [fontsize=17.242946597808317, height=3.448589319561663,width=3.448589319561663, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=22\ninst=2639\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_23 [fontsize=16.998332603009658, height=3.399666520601931,width=3.399666520601931, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=23\ninst=2513\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster24 {
+label="case2\nID=24\ninst=35340"
+color="#FF00FF"; style=filled; fillcolor="#FF00FF40"
+	 task_24__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=24__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_24__1 [fontsize=27.529522907237588, height=5.505904581447518,width=5.505904581447518, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=24__1\ninst=20650\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_25 [fontsize=24.636911873353064, height=4.9273823746706125,width=4.9273823746706125, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=25\ninst=11579\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_26 [fontsize=17.981386636046214, height=3.5962773272092425,width=3.5962773272092425, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=26\ninst=3059\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster27 {
+label="case3\nID=27\ninst=100695"
+color="#00FFFF"; style=filled; fillcolor="#00FFFF40"
+	 task_27__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=27__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_27__1 [fontsize=33.454324289443946, height=6.69086485788879,width=6.69086485788879, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=27__1\ninst=67537\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_28 [fontsize=24.9360962836284, height=4.98721925672568,width=4.98721925672568, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=28\ninst=12293\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_29 [fontsize=27.568835267582955, height=5.513767053516591,width=5.513767053516591, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=29\ninst=20813\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster30 {
+label="case4\nID=30\ninst=308868"
+color="#800000"; style=filled; fillcolor="#80000040"
+	 task_30__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=30__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_30__1 [fontsize=39.38506189460077, height=7.877012378920153,width=7.877012378920153, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=30__1\ninst=221146\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_31 [fontsize=30.994895600719627, height=6.1989791201439255,width=6.1989791201439255, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=31\ninst=41297\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_32 [fontsize=31.574533276767287, height=6.314906655353457,width=6.314906655353457, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=32\ninst=46373\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+}
+subgraph cluster33 {
+label="case3\nID=33\ninst=43669"
+color="#00FFFF"; style=filled; fillcolor="#00FFFF40"
+	 task_33__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=33__0\ninst=52\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_33__1 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=33__1\ninst=31\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_33__2 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=33__2\ninst=0\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_34 [fontsize=20.15316726477228, height=4.030633452954456,width=4.030633452954456, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=34\ninst=4723\nnesting=2\nchildren_pot_tasks=0",style=filled]
+	 task_35 [fontsize=20.15316726477228, height=4.030633452954456,width=4.030633452954456, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=35\ninst=4723\nnesting=2\nchildren_pot_tasks=0",style=filled]
+subgraph cluster36 {
+label="case1\nID=36\ninst=6873"
+color="#FFFF00"; style=filled; fillcolor="#FFFF0040"
+	 task_36__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=36__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_36__1 [fontsize=16.173903075784782, height=3.2347806151569563,width=3.2347806151569563, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=36__1\ninst=2131\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_37 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=37\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_38 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=38\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster39 {
+label="case2\nID=39\ninst=13512"
+color="#FF00FF"; style=filled; fillcolor="#FF00FF40"
+	 task_39__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=39__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_39__1 [fontsize=23.19950898076553, height=4.639901796153106,width=4.639901796153106, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=39__1\ninst=8686\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_40 [fontsize=16.741133046985844, height=3.348226609397169,width=3.348226609397169, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=40\ninst=2387\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_41 [fontsize=16.741133046985844, height=3.348226609397169,width=3.348226609397169, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=41\ninst=2387\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster42 {
+label="case3\nID=42\ninst=6876"
+color="#00FFFF"; style=filled; fillcolor="#00FFFF40"
+	 task_42__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=42__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_42__1 [fontsize=16.180937074600187, height=3.2361874149200376,width=3.2361874149200376, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=42__1\ninst=2134\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_43 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=43\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_44 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=44\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster45 {
+label="case4\nID=45\ninst=6879"
+color="#800000"; style=filled; fillcolor="#80000040"
+	 task_45__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=45__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_45__1 [fontsize=16.187961191887435, height=3.237592238377487,width=3.237592238377487, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=45__1\ninst=2137\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_46 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=46\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_47 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=47\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+}
+subgraph cluster48 {
+label="case4\nID=48\ninst=232816"
+color="#800000"; style=filled; fillcolor="#80000040"
+	 task_48__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=48__0\ninst=52\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_48__1 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=48__1\ninst=34\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_48__2 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=48__2\ninst=0\nnesting=1\nchildren_pot_tasks=6",style=filled]
+	 task_49 [fontsize=30.081083781149264, height=6.016216756229853,width=6.016216756229853, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=49\ninst=34399\nnesting=2\nchildren_pot_tasks=0",style=filled]
+	 task_50 [fontsize=26.850576834344388, height=5.370115366868878,width=5.370115366868878, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=50\ninst=18028\nnesting=2\nchildren_pot_tasks=0",style=filled]
+subgraph cluster51 {
+label="case1\nID=51\ninst=20061"
+color="#FFFF00"; style=filled; fillcolor="#FFFF0040"
+	 task_51__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=51__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_51__1 [fontsize=25.055063394122993, height=5.011012678824598,width=5.011012678824598, fixedsize=true,shape=box,color="#FFFF00",label="case1\nID=51__1\ninst=12589\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_52 [fontsize=19.405474444827817, height=3.8810948889655634,width=3.8810948889655634, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=52\ninst=4067\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_53 [fontsize=18.440223647622837, height=3.6880447295245675,width=3.6880447295245675, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=53\ninst=3353\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster54 {
+label="case2\nID=54\ninst=146487"
+color="#FF00FF"; style=filled; fillcolor="#FF00FF40"
+	 task_54__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=54__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_54__1 [fontsize=35.37794669382069, height=7.0755893387641375,width=7.0755893387641375, fixedsize=true,shape=octagon,color="#FF00FF",label="case2\nID=54__1\ninst=99226\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_55 [fontsize=29.522184579512075, height=5.904436915902415,width=5.904436915902415, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=55\ninst=30761\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_56 [fontsize=26.391965756566155, height=5.278393151313231,width=5.278393151313231, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=56\ninst=16448\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster57 {
+label="case3\nID=57\ninst=6876"
+color="#00FFFF"; style=filled; fillcolor="#00FFFF40"
+	 task_57__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=57__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_57__1 [fontsize=16.180937074600187, height=3.2361874149200376,width=3.2361874149200376, fixedsize=true,shape=doublecircle,color="#00FFFF",label="case3\nID=57__1\ninst=2134\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_58 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=58\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_59 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=59\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+subgraph cluster60 {
+label="case4\nID=60\ninst=6879"
+color="#800000"; style=filled; fillcolor="#80000040"
+	 task_60__0 [fontsize=5, height=1,width=1, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=60__0\ninst=52\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_60__1 [fontsize=16.187961191887435, height=3.237592238377487,width=3.237592238377487, fixedsize=true,shape=tripleoctagon,color="#800000",label="case4\nID=60__1\ninst=2137\nnesting=2\nchildren_pot_tasks=2",style=filled]
+	 task_61 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=ellipse,color="#00FF00",label="horizontal\nID=61\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+	 task_62 [fontsize=16.652373319693595, height=3.330474663938719,width=3.330474663938719, fixedsize=true,shape=trapezium,color="#FF0000",label="vertical\nID=62\ninst=2345\nnesting=3\nchildren_pot_tasks=0",style=filled]
+}
+}
+}
+	 task_0__0  ->  task_1 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_0__0  ->  task_2 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_0__1  ->  task_3__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_0__1  ->  task_18__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_0__1  ->  task_33__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_0__1  ->  task_48__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_1  ->  task_0__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_2  ->  task_0__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_3__0  ->  task_4 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__0  ->  task_5 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__1  ->  task_6__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__1  ->  task_9__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__1  ->  task_12__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__1  ->  task_15__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_3__2  ->  task_0__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_4  ->  task_3__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_5  ->  task_3__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_6__0  ->  task_7 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_6__0  ->  task_8 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_6__1  ->  task_3__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_7  ->  task_6__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_8  ->  task_6__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_9__0  ->  task_10 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_9__0  ->  task_11 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_9__1  ->  task_3__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_10  ->  task_9__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_11  ->  task_9__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_12__0  ->  task_13 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_12__0  ->  task_14 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_12__1  ->  task_3__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_13  ->  task_12__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_14  ->  task_12__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_15__0  ->  task_16 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_15__0  ->  task_17 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_15__1  ->  task_3__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_16  ->  task_15__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_17  ->  task_15__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_18__0  ->  task_19 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__0  ->  task_20 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__1  ->  task_21__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__1  ->  task_24__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__1  ->  task_27__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__1  ->  task_30__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_18__2  ->  task_0__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_19  ->  task_18__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_20  ->  task_18__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_21__0  ->  task_22 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_21__0  ->  task_23 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_21__1  ->  task_18__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_22  ->  task_21__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_23  ->  task_21__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_24__0  ->  task_25 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_24__0  ->  task_26 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_24__1  ->  task_18__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_25  ->  task_24__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_26  ->  task_24__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_27__0  ->  task_28 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_27__0  ->  task_29 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_27__1  ->  task_18__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_28  ->  task_27__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_29  ->  task_27__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_30__0  ->  task_31 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_30__0  ->  task_32 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_30__1  ->  task_18__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_31  ->  task_30__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_32  ->  task_30__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_33__0  ->  task_34 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__0  ->  task_35 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__1  ->  task_36__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__1  ->  task_39__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__1  ->  task_42__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__1  ->  task_45__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_33__2  ->  task_0__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_34  ->  task_33__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_35  ->  task_33__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_36__0  ->  task_37 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_36__0  ->  task_38 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_36__1  ->  task_33__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_37  ->  task_36__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_38  ->  task_36__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_39__0  ->  task_40 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_39__0  ->  task_41 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_39__1  ->  task_33__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_40  ->  task_39__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_41  ->  task_39__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_42__0  ->  task_43 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_42__0  ->  task_44 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_42__1  ->  task_33__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_43  ->  task_42__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_44  ->  task_42__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_45__0  ->  task_46 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_45__0  ->  task_47 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_45__1  ->  task_33__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_46  ->  task_45__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_47  ->  task_45__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_48__0  ->  task_49 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__0  ->  task_50 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__1  ->  task_51__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__1  ->  task_54__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__1  ->  task_57__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__1  ->  task_60__0 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_48__2  ->  task_0__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_49  ->  task_48__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_50  ->  task_48__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_51__0  ->  task_52 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_51__0  ->  task_53 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_51__1  ->  task_48__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_52  ->  task_51__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_53  ->  task_51__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_54__0  ->  task_55 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_54__0  ->  task_56 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_54__1  ->  task_48__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_55  ->  task_54__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_56  ->  task_54__1 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_57__0  ->  task_58 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_57__0  ->  task_59 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_57__1  ->  task_48__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_58  ->  task_57__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_59  ->  task_57__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_60__0  ->  task_61 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_60__0  ->  task_62 [arrowsize=2.6457513110645907, penwidth=7,style=dotted color=yellow]
+	 task_60__1  ->  task_48__2 [arrowsize=2.6457513110645907, penwidth=7,style=dashed color=green]
+	 task_61  ->  task_60__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+	 task_62  ->  task_60__1 [arrowsize=2.6457513110645907, penwidth=7,style=bold color=red]
+}
